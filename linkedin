@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedin Bootstrap</title>
+    <link rel="stylesheet" href="/bootstraplinkedinclone/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="body">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-light navbarbg fixed-top">
+        <a class="navbar-brand" href="#">
+            <i class="fab fa-linkedin fa-lg logo-style"></i>
+        </a>
+        <div class="d-none d-lg-block">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <form class="form-inline">
+                <input class="form-control searche" type="search" placeholder="Arama Yap" aria-label="Search" />
+            </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home fa-lg hover-color">
+                            <div class="menutext hover-color">Ana Sayfa</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item active me-2">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user-friends fa-lg">
+                            <div class="menutext">Ağım</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item active me-2">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-briefcase fa-lg">
+                            <div class="menutext">İş İlanları</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item active me-2">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-comment-dots fa-lg">
+                            <div class="menutext">Mesajlaşma</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item active me-2">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-bell fa-lg">
+                            <div class="menutext">Bildirimler</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown me-2">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle img-size-25" src="./assets/cakir.jpg" />
+                        <div class="menutext line-navbar">Ben</div>
+                    </a>
+                </li>
+                <li class="nav-item active border-left border-start ps-3 me-2 d-none d-md-block">
+                    <a class="nav-link me-1" href="#">
+                        <i class="fas fa-th fa-lg">
+                            <div class="menutext">İş</div>
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item active d-none d-md-block pe-2 me-2">
+                    <a class="nav-link me-5" href="#">
+                        <i class="fas fa-chalkboard fa-lg">
+                            <div class="menutext">İş İlanı Yayınla</div>
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-4">
+                <div class="card mb-2">
+                    <div class="card-header text-center mb-3 bg-left-panel">
+                        <img src="./assets/cakir.jpg" class="rounded-circle border border-white pp-image" />
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-title header">
+                            <a href="https://www.linkedin.com/in/cengizcmataraci/"
+                                class="text-decoration-none column-title" target="_blank">Erhan Algül</a>
+                        </p>
+                        <div class="left-column-content">
+                            Software Developer at Navlungo - Dijital Lojistik Platformu
+                        </div>
+                        <hr />
+                        <div class="card-text text-start px-1">
+                            <div>
+                                <span class="view">Profilinizi kimler görüntüledi</span>
+                                <span class="float-end view mt-1 notification-color">447</span>
+                            </div>
+                            <div>
+                                <span class="view">Yayınınız için görüntüleme</span>
+                                <span class="float-end view mt-1 notification-color">150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-bookmark ms-2"></i><span class="mb-4 ms-2">Öğelerim</span>
+                    </div>
+                </div>
+                <div class="card mt-2 d-none d-lg-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Sayfalarım</h5>
+                        <img class="img-size-32" src="./assets/pp2.png" />
+                        <div class="page-title">
+                            Kablosuz Beyin
+                        </div>
+                        <div class="page-description">
+                            Sayfa Bildirimleri
+                            <span class="float-end notification-color">10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-2 d-none d-lg-block position-sticky top-4">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6>En Yeni</h6>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i><span
+                                    class="ms-2 font-weight-bold hashtag-description">kodluyoruz</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i><span
+                                    class="ms-2 font-weight-bold hashtag-description">front-end</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i><span
+                                    class="ms-2 font-weight-bold hashtag-description">html</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i><span
+                                    class="ms-2 font-weight-bold hashtag-description">css</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i><span
+                                    class="ms-2 font-weight-bold hashtag-description">bootstrap</span>
+                            </div>
+                            <div class="mt-3 categories">Gruplar</div>
+                            <span class="mt-2 categories">Etkinlikler</span>
+                            <span class="float-end hashtag-color">+</span>
+                            <div class="mt-3 mb-1 categories">Takip edilen hashtagler</div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i>
+                                <span class="ms-2 font-weight-bold hashtag-description">kodluyoruz</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-hashtag hashtag-style"></i>
+                                <span class="ms-2 font-weight-bold hashtag-description">front-end</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Daha fazla keşfet
+                    </div>
+                </div>
+            </div>
+
+            <!-- orta panel -->
+            <div class="col-lg-6 col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <input type="text" class="form-control content" placeholder="Bir gönderi başlat" />
+                        <div class="d-flex justify-content-between pt-3">
+                            <span>
+                                <button class="btn btn-white mediatext card-button">
+                                    <svg class="picture-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" focusable="false">
+                                        <path
+                                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                                        </path>
+                                    </svg>
+                                    <span class="ms-1 mediatext">Fotoğraf</span>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="btn btn-white mediatext card-button">
+                                    <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" focusable="false">
+                                        <path
+                                            d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z">
+                                        </path>
+                                    </svg>
+                                    <span class="ms-1 mediatext">Video</span>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="btn btn-white mediatext card-button">
+                                    <svg class="activity-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" focusable="false">
+                                        <path
+                                            d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                                        </path>
+                                    </svg>
+                                    <span class="ms-1 mediatext">Etkinlik</span>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="btn btn-white mediatext card-button">
+                                    <svg class="content-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" focusable="false">
+                                        <path
+                                            d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z">
+                                        </path>
+                                    </svg>
+                                    <span class="ms-1 mediatext">Yazı yaz</span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <hr />
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-white border-0">
+                        <img src="https://media.licdn.com/dms/image/C4E03AQGiWpTUewQ76Q/profile-displayphoto-shrink_400_400/0/1613923672703?e=1725494400&v=beta&t=tbLhyPwfDvs28NMU85vHGrqKABoiHMYTVzq_ICaAcTs"
+                            class="postphoto float-start me-2">
+                        <span class="float-end">
+                            <i class="fas fa-ellipsis-h fa-md"></i>
+                        </span>
+                        <span class="posttext d-flex">
+                            <a class="text-decoration-none column-title" href="https://www.linkedin.com/in/malan/"
+                                target="_blank">David J. Malan</a>
+                        </span>
+                        <div class="post-header">
+                            <span class="d-flex align-self-start card-span">I teach CS50</span>
+                            <span class="card-span">25a<i class="fas fa-globe-americas fa-sm ps-2"></i></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="card-text ms-3 card-p">
+                            They have done great things! Tebrikler Kodluyoruz!
+                        </p>
+                        <div>
+                            <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top mb-1" />
+                        </div>
+
+                        <span class="ms-4">
+                            <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb">
+                        </span>
+                        <span class="">
+                            <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f">
+                        </span>
+                        <span class="card-span">
+                            <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"> 958
+                        </span>
+
+                        <div class="card-footer bg-white mt-1 d-flex justify-content-between align-items-center">
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-thumbs-up fa-md">
+                                        <span class="ms-1 mediatext">Beğen</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-comment fa-md">
+                                        <span class="ms-1 mediatext">Yorum Yap</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-share fa-md">
+                                        <span class="ms-1 mediatext">Paylaş</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-paper-plane fa-md">
+                                        <span class="ms-1 mediatext">Gönder</span>
+                                    </i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-2">
+                    <div class="card-header bg-white border-0">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE_6taxY7ixlA/profile-displayphoto-shrink_400_400/0/1698501160273?e=1725494400&v=beta&t=2pNAUbqWe1SKI4ZWo3hfSU124GsFaSw726H92vMHp9Y"
+                            class="postphoto float-start me-2">
+                        <span class="float-end">
+                            <i class="fas fa-ellipsis-h fa-md"></i>
+                        </span>
+                        <span class="posttext d-flex">
+                            <a class="text-decoration-none column-title" href="https://www.linkedin.com/in/ozanhalis/"
+                                target="_blank">Ozan Halis İLTER</a>
+                        </span>
+                        <div class="post-header">
+                            <span class="d-flex align-items-center card-span">Team Leader at YetGen | CodeCraft |
+                                Kablosuz Beyin | IEEE MEF...</span>
+                            <span class="card-span">1s
+                                <i class="fas fa-globe-americas fa-sm"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="card-text ms-3 card-p">
+                            Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!
+                        </p>
+                        <div>
+                            <img src="https://miro.medium.com/max/1080/1*gdDWFSvHDt57DS2zsh_0Bg.png"
+                                class="card-img-top mb-1" />
+                        </div>
+
+                        <span class="ms-4">
+                            <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb">
+                        </span>
+                        <span class="">
+                            <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f">
+                        </span>
+                        <span class="card-span">
+                            <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"> 210
+                        </span>
+
+                        <div class="card-footer bg-white mt-1 d-flex justify-content-between align-items-center">
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-thumbs-up fa-md">
+                                        <span class="ms-1 mediatext">Beğen</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-comment fa-md">
+                                        <span class="ms-1 mediatext">Yorum Yap</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-share fa-md">
+                                        <span class="ms-1 mediatext">Paylaş</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-paper-plane fa-md">
+                                        <span class="ms-1 mediatext">Gönder</span>
+                                    </i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-2">
+                    <div class="card-header bg-white border-0">
+                        <img src="https://media.licdn.com/dms/image/D4D35AQFY6qCHeDF0nQ/profile-framedphoto-shrink_400_400/0/1707836464297?e=1720699200&v=beta&t=0mVIA-FwJD_ERoGbQWiQb-OkTp6tuBNKxTbov17T8EQ"
+                            class="postphoto float-start me-2">
+                        <span class="float-end">
+                            <i class="fas fa-ellipsis-h fa-md"></i>
+                        </span>
+                        <span class="posttext d-flex">
+                            <a class="text-decoration-none column-title"
+                                href="https://www.linkedin.com/in/ramazansancar/" target="_blank">Ramazan Sancar</a>
+                        </span>
+
+                        <div class="post-header">
+                            <span class="d-flex align-items-center card-span">Co-Founder
+                                at Kablosuz Beyin | Intern & Community Lead at Kod...</span>
+                            <span class="card-span">25a
+                                <i class="fas fa-globe-americas fa-sm"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="card-text ms-3 card-p">
+                            Cat Özel Harekat'a katılmak isteyenleri şöyle alalım..
+                        </p>
+                        <div>
+                            <img src="https://media.licdn.com/dms/image/D4D22AQFmOuMjyJQC5A/feedshare-shrink_2048_1536/0/1720184358003?e=1723075200&v=beta&t=q4aa56rxrVU481GPF-bpQxxgaCux0kKsXwZwKSkLAZM"
+                                class="card-img-top mb-1" />
+                        </div>
+
+                        <span class="ms-4">
+                            <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb">
+                        </span>
+                        <span class="">
+                            <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f">
+                        </span>
+                        <span class="card-span">
+                            <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97"> 224
+                        </span>
+
+                        <div class="card-footer bg-white mt-1 d-flex justify-content-between">
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-thumbs-up fa-md">
+                                        <span class="ms-2 mediatext">Beğen
+                                        </span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="far fa-comment fa-md">
+                                        <span class="ms-2 mediatext">Yorum Yap</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-share fa-md">
+                                        <span class="ms-2 mediatext">Paylaş</span>
+                                    </i>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="ref btn btn-white">
+                                    <i class="fas fa-paper-plane fa-md">
+                                        <span class="ms-2 mediatext">Gönder</span>
+                                    </i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- sağ panel -->
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                    <div class="card-header bg-white border-0">
+                        <span>Akışınıza ekleyin</span>
+                        <span><i class="fas fa-info-circle float-end"></i></span>
+                    </div>
+                    <div class="card-title">
+                        <div class="d-flex align-items-center justify-content-between ms-3 me-3 follow-container">
+                            <div class="d-flex align-items-center">
+                                <img class="right-card-img" src="./assets/pp1.png" />
+                                <div class="header ms-1 right-card-title">Codecraft</div>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm follow-btn">
+                                <strong>+ Takip Et</strong>
+                            </button>
+                        </div>
+                    </div>
+                    <div class=" card-title">
+                        <div class="d-flex align-items-center justify-content-between ms-3 me-3 follow-container">
+                            <div class="d-flex align-items-center">
+                                <img class="right-card-img" src="./assets/pp2.png" />
+                                <div class="header ms-1 right-card-title">Podfresh</div>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm follow-btn">
+                                <strong>+ Takip Et</strong>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-title mb-4">
+                        <div class="d-flex align-items-center justify-content-between ms-3 me-3 follow-container">
+                            <div class="d-flex align-items-center">
+                                <img class="right-card-img" src="./assets/025.png" />
+                                <div class="header ms-1 right-card-title">Navlungo</div>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm follow-btn">
+                                <strong>+ Takip Et</strong>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card mt-2">
+                    <div class="card-header bg-white border-0">
+                        <span>Bugünün en çok izlenen eğitimleri</span>
+                        <span>
+                            <i class="fas fa-info-circle ms-1"></i>
+                        </span>
+                    </div>
+                    <div class="card-title">
+                        <ol>
+                            <li>
+                                The Six Morning Habits of High Perf...
+                                <div class="right-card-text">
+                                    Pete Mocakatais | How to be awesome at you...
+                                </div>
+                            </li>
+                            <li class="mt-2">
+                                Onconscious Blas
+                                <div class="right-card-text">
+                                    Stacey Gordon
+                                </div>
+                            </li>
+                            <li class="mt-2">
+                                Critical Thinking for Better Judgme...
+                                <div class="right-card-text">
+                                    Becki Saltzman
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="card-footer text-center bg-white border-0 right-card-footer">
+                        Linkedin Learning'de daha fazlasını göster
+                    </div>
+                </div>
+                <div class="text-center mt-3 ms-3">
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <div class="me-3"><a href="https://about.linkedin.com/" class="link">Hakkında</a></div>
+                        <div class="me-3"><a
+                                href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
+                                class="link">Erişilebilirlik</a></div>
+                        <div class="me-3"><a
+                                href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
+                                class="link">Yardım Merkezi</a></div>
+                        <div class="me-3"><a href="" class="link">Gizlilik ve Koşullar</a></div>
+                        <div class="me-3"><a
+                                href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
+                                class="link">Reklam Tercihleri</a></div>
+                        <div class="me-3"><a
+                                href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
+                                class="link">Reklam</a></div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <img class="right-footer-logo"
+                            src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" />
+                        <span class="right-footer-span">Linkedin Corporation © 2021</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- mesajlaşma -->
+    <nav class="navbar navbar-expand-xl bg-white position-sticky fixed-bottom border footer-nav">
+        <a class="navbar-brand ps-3 float-start" href="#">
+            <div class="avatar-container">
+                <img class="rounded-circle img-size-32" src="./assets/cakir.jpg" />
+                <img class="online-status" src="./assets/green-dot1.gif" />
+            </div>
+        </a>
+        <span class="pe-5 footer-text"><strong>Mesajlaşma</strong></span>
+        <span class="pe-1">
+            <img class="img-size-15" src="./assets/edit-regular.svg">
+        </span>
+        <span class="pe-1"><i class="fas fa-ellipsis-h fa-sm ms-3"></i></span>
+        <span class="pe-1"><i class="fas fa-chevron-up fa-sm ms-3"></i></span>
+    </nav>
+</body>
+
+</html>
